@@ -14,15 +14,12 @@ header{
 	width: 1180px; 
 	margin: 0 auto;
 	background-color: #fff;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 /***************/
 /*Start Header*/
 /*************/
-header div section{
-	width: 1150px;
-	margin: -16px auto 0 auto;
-	padding: 0;
-}
 header div section article{
 	font-family: "Arial",arial,helvetica,sans-serif,verdana;
 	font-size: 13px;
@@ -63,7 +60,7 @@ header div section ul li:hover a{
 header div section nav ul li a img{
 	margin: 0 0 0 auto;
 	display: block;
-	float: left;
+	float: right;	
 }
 header div section nav ul li a p{		
 	color: #fff;
@@ -78,3 +75,23 @@ header div section nav ul a:hover p{
 /*****************/
 /*Start Main Top*/
 /***************/
+main #top{
+	width: 100%;
+	margin: 0 auto;	
+}
+main #top div + div{
+	width: 33.33%;
+	float: left;
+	margin: 0 auto;
+}
+main #top div + div + div span{
+	background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/t/17/assets/bkg-icons6.png');
+	background-position: 0px -88px;
+	background-repeat: no-repeat;
+	float: right;
+	display: block;
+	margin: 0 auto;
+}
+main top div a p{
+
+}
