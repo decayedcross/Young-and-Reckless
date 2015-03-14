@@ -150,8 +150,14 @@ main #middle div figure img{
 	display: block;
 	margin: 0 auto;
 }
-main #middle div figure:hover img{
+main #middle div figure img:hover{
 	opacity: .4;
+}
+ /*trying to get image to change on hover*/
+main #middle div figure img #image-change-one:hover{ 
+	background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/products/004_large.jpg?v=1426202040');
+	width: 280px;
+	height: 280px;
 }
 .text-top{
 	font-size: 12px;
