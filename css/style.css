@@ -134,6 +134,14 @@ main #middle article{
 	font-family: "Courier";
 }
 main #middle div{
+	width: 100%;
+}
+main #middle div div{
 	width: 25%;
 	float: left;
 }
+main #middle div figure img{
+	width: 280px;
+	height: 280px;
+}
+
