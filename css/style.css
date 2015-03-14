@@ -150,6 +150,9 @@ main #middle div figure img{
 	display: block;
 	margin: 0 auto;
 }
+main #middle div figure:hover img{
+	opacity: .4;
+}
 .text-top{
 	font-size: 12px;
 	text-align: center;
@@ -158,4 +161,18 @@ main #middle div figure img{
 	font-size: 15px;
 	text-align: center;
 	font-weight: 600;
+}
+/********************/
+/*Start Main Bottom*/
+/******************/
+main #bottom{
+	width: 100%;
+}
+main #bottom div{
+	width: 100%;
+	float: left;
+}
+main #bottom div button{
+	display: block;
+	margin: 0 auto;
 }
