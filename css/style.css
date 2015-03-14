@@ -105,8 +105,6 @@ main #top div img{
 main #top-nav{
 	width: 100%;
 	margin: 0 auto;
-}
-main #top-nav{
 	float: left;
 }
 main #top-nav nav ul li{
@@ -123,4 +121,19 @@ main #top-nav nav ul li a{
 }
 main #top-nav ul li:hover a{
 	text-decoration: underline;
+}
+/********************/
+/*Start Main Middle*/
+/******************/
+main #middle{
+	width: 100%;
+	margin: 0 auto;
+}
+main #middle article{
+	text-align: center;
+	font-family: "Courier";
+}
+main #middle div{
+	width: 25%;
+	float: left;
 }
