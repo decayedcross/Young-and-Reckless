@@ -48,7 +48,7 @@ header div section nav ul li a{
 	cursor: hand;
 	cursor: pointer;
 	color: #fff;
-	font-family: "Roboto";
+	font-family: "Courier";
 	font-size: 11px;
 }
 header div section ul li:hover a{
@@ -64,7 +64,6 @@ header div section nav ul li a img{
 }
 header div section nav ul li a p{		
 	color: #fff;
-	font-family: "Roboto";
 	font-size: 11px;
 	margin: 0 auto;
 }
@@ -79,19 +78,49 @@ main #top{
 	width: 100%;
 	margin: 0 auto;	
 }
-main #top div + div{
+main #top div{
 	width: 33.33%;
 	float: left;
 	margin: 0 auto;
 }
-main #top div + div + div span{
+main #top div span{
 	background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/t/17/assets/bkg-icons6.png');
 	background-position: 0px -88px;
 	background-repeat: no-repeat;
-	float: right;
+	height: 38px;
+	width: 40px;
+	float: left;
+}
+main #top div a{
+	text-decoration: none;
+	text-align: right;
+}
+main #top div img{
 	display: block;
 	margin: 0 auto;
 }
-main top div a p{
-
+/*********************/
+/*Start Main Top-nav*/
+/*******************/
+main #top-nav{
+	width: 100%;
+	margin: 0 auto;
+}
+main #top-nav{
+	float: left;
+}
+main #top-nav nav ul li{
+	width: 14%;
+	display: inline;
+	float: left;
+	text-align: center;	
+}
+main #top-nav nav ul li a{
+	text-decoration: none;
+	font-family: "Courier";
+	color: #000;	
+	font-weight: 600;
+}
+main #top-nav ul li:hover a{
+	text-decoration: underline;
 }
