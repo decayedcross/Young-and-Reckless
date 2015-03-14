@@ -154,11 +154,16 @@ main #middle div figure img:hover{
 	opacity: .4;
 }
  /*trying to get image to change on hover*/
-main #middle div figure img #image-change-one:hover{ 
-	background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/products/004_large.jpg?v=1426202040');
+.image-change{
 	width: 280px;
 	height: 280px;
+	background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/products/004_large.jpg?v=1426202040');
+	background-size: 0;
 }
+.image-change:hover{
+	background-size:100%;
+}
+ /*trying to get image to change on hover*/
 .text-top{
 	font-size: 12px;
 	text-align: center;
