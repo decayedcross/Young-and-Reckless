@@ -154,10 +154,23 @@ main #middle div figure img:hover{
 	opacity: .4;
 	transition: all 1s ease-in-out;
 }
+main #middle div figure #slash{
+	text-decoration: line-through;
+	width: 48%;
+	float: left;
+	text-align: right;
+	margin-right: 5px;
+}
+main #middle div figure #red{
+	width: 48%;
+	float: left;
+	text-align: left;
+	color: #E95144;
+	margin-left: 5px;
+}
  /*trying to get image to change on hover*/
-
 .image-overlay{
- 	width: 285px;
+ 	width: 280px;
  	height: 280px;
  	transition: all 1s ease-in-out;
  	display: block; 
@@ -210,6 +223,7 @@ main #middle div div figure #img-five:hover{
 	text-align: center;
 	font-weight: 600;
 }
+
 /********************/
 /*Start Main Bottom*/
 /******************/
