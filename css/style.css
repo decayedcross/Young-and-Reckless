@@ -156,17 +156,17 @@ main #middle div figure img:hover{
 }
 main #middle div figure #slash{
 	text-decoration: line-through;
-	width: 48%;
+	width: 45%;
 	float: left;
 	text-align: right;
-	margin-right: 5px;
+	margin: 0 5 0 0;
 }
 main #middle div figure #red{
-	width: 48%;
+	width: 45%;
 	float: left;
 	text-align: left;
 	color: #E95144;
-	margin-left: 5px;
+	margin: 0 0 0 5;
 }
  /*trying to get image to change on hover*/
 .image-overlay{
