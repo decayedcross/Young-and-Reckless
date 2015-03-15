@@ -32,6 +32,9 @@ header div section article a{
 	text-decoration: none;
 	color: #fff;
 }
+header div section article a p{
+	margin: 10px 10px 10px 80px;
+}
 header div section nav{
 	float: left;
 	width: 50%;
