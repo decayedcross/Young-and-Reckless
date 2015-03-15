@@ -156,74 +156,50 @@ main #middle div figure img:hover{
 }
  /*trying to get image to change on hover*/
 
- main #middle div figure div{
- 	width: 280px;
-	height: 280px;
-	display: block;
-	margin: 0 auto; }
-.image-change-one{
-  width: 280px; 
-  height: 280px; 
-  background: url('http://cdn.shopify.com/s/files/1/0340/3381/products/001_grande.jpg?v=1426202040') repeat;
-  background-size: 100% 100%;
-} 
-.image-change-one:hover{
- 	background: url('http://cdn.shopify.com/s/files/1/0340/3381/products/004_large.jpg?v=1426202040') repeat; 
- 	background-size: 100% 100%;
- 	opacity: .4;
+.image-overlay{
+ 	width: 285px;
+ 	height: 280px;
  	transition: all 1s ease-in-out;
-}
-.image-change-two{
-  width: 280px; 
-  height: 280px; 
-  background: url('http://cdn.shopify.com/s/files/1/0340/3381/products/034_grande.jpg?v=1426202096"') repeat;
-  background-size: 100% 100%;
-} 
-.image-change-two:hover{
- 	background: url('http://cdn.shopify.com/s/files/1/0340/3381/products/037_large.jpg?v=1426202096') repeat; 
- 	background-size: 100% 100%;
+ 	display: block; 
+ 	opacity: 1;
+ }
+.image-overlay:hover{
  	opacity: .4;
- 	transition: all 1s ease-in-out;
+ }
+ main #middle div div figure #img-one,  main #middle div div figure #img-two,  main #middle div div figure #img-three,  main #middle div div figure #img-four,  main #middle div div figure #img-five{
+ 	background-repeat: repeat;
+ 	background-size: 100% 100%; 
 }
-.image-change-three{
-  width: 280px; 
-  height: 280px; 
-  background: url('http://cdn.shopify.com/s/files/1/0340/3381/products/017_grande.jpg?v=1426202098"') repeat;
-  background-size: 100% 100%;
+main #middle div div figure #img-one{
+  background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/products/001_grande.jpg?v=1426202040');
 } 
-.image-change-three:hover{
- 	background: url('http://cdn.shopify.com/s/files/1/0340/3381/products/020_large.jpg?v=1426202098') repeat; 
- 	background-size: 100% 100%;
- 	opacity: .4;
- 	transition: all 1s ease-in-out;
+main #middle div div figure #img-one:hover{
+ 	background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/products/004_large.jpg?v=1426202040');
 }
-.image-change-four{
-  width: 280px; 
-  height: 280px; 
-  background: url('http://cdn.shopify.com/s/files/1/0340/3381/products/kCv8vNoxp_Z9pYeEL6LKzamk2vcEr_6iHWONPg8y_6Y_grande.jpeg?v=1426202113') repeat;
-  background-size: 100% 100%;
+main #middle div div figure #img-two{
+  background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/products/001_grande.jpg?v=1426202040');
 } 
-.image-change-four:hover{
- 	background: url('http://cdn.shopify.com/s/files/1/0340/3381/products/UG8X6NtubYlFmyEUuuloUjICBwHb6aoM1N8hg2O3Lac_large.jpeg?v=1426202113') repeat; 
- 	background-size: 100% 100%;
- 	opacity: .4;
- 	transition: all 1s ease-in-out;
+main #middle div div figure #img-two:hover{
+ 	background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/products/004_large.jpg?v=1426202040');
 }
-.image-change-five{
-  width: 280px; 
-  height: 280px; 
-  background: url('http://cdn.shopify.com/s/files/1/0340/3381/products/150123YR0126_grande.jpg?v=1426202115') repeat;
-  background-size: 100% 100%;
+main #middle div div figure #img-three{
+  background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/products/001_grande.jpg?v=1426202040');
 } 
-.image-change-five:hover{
- 	background: url('http://cdn.shopify.com/s/files/1/0340/3381/products/150123YR0126_5-Edit_large.jpg?v=1426202115') repeat; 
- 	background-size: 100% 100%;
- 	opacity: .4;
- 	transition: all 1s ease-in-out;
+main #middle div div figure #img-three:hover{
+ 	background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/products/004_large.jpg?v=1426202040');
 }
-
-
-
+main #middle div div figure #img-four{
+  background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/products/001_grande.jpg?v=1426202040');
+} 
+main #middle div div figure #img-four:hover{
+ 	background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/products/004_large.jpg?v=1426202040');
+}
+main #middle div div figure #img-five{
+  background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/products/001_grande.jpg?v=1426202040');
+} 
+main #middle div div figure #img-five:hover{
+ 	background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/products/004_large.jpg?v=1426202040') ;
+}
  /*trying to get image to change on hover*/
 .text-top{
 	font-size: 12px;
