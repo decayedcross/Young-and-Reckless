@@ -6,21 +6,17 @@ body{
 	background: url('https://cdn.shopify.com/s/files/1/0340/3381/t/16/assets/bg-body.png');
 	background-repeat: repeat;
 }
-header{
-	width: 100%;
-	float: left;
-}
-.wrap{
+header, main{
 	width: 1180px; 
 	margin: 0 auto;
 	background-color: #fff;
 	padding-right: 15px;
 	padding-left: 15px;
 }
-/***************/
-/*Start Header*/
-/*************/
-header div section article{
+/*******************/
+/*Start Header Top*/
+/*****************/
+header #top article{
 	font-family: "Arial",arial,helvetica,sans-serif,verdana;
 	font-size: 13px;
 	width: 50%;
@@ -28,25 +24,25 @@ header div section article{
 	text-align: left;
 	background-color: #000;
 }
-header div section article a{
+header #top article a{
 	text-decoration: none;
 	color: #fff;
 }
-header div section article a p{
+header #top article a p{
 	margin: 10px 10px 10px 80px;
 }
-header div section nav{
+header #top nav{
 	float: left;
 	width: 50%;
 	background-color: #000;
 }
-header div section nav ul li{
+header #top nav ul li{
 	width: 33%;
 	text-align: right;
 	float: left;
 	display: inline;
 }
-header div section nav ul li a{
+header #top ul li a{
 	text-decoration: none;
 	cursor: hand;
 	cursor: pointer;
@@ -54,39 +50,39 @@ header div section nav ul li a{
 	font-family: "Courier";
 	font-size: 11px;
 }
-header div section ul li:hover a{
+header #top ul li:hover a{
 	text-decoration: underline;
 	color: #D9D9D9;
 	cursor: pointer;
 	cursor: hand;
 }
-header div section nav ul li a img{
+header #top nav ul li a img{
 	margin: 0 0 0 auto;
 	display: block;
 	float: right;	
 }
-header div section nav ul li a p{		
+header #top nav ul li a p{		
 	color: #fff;
 	font-size: 11px;
 	margin: 0 auto;
 }
-header div section nav ul a:hover p{
+header #top nav ul a:hover p{
 	text-align: underline;
 	color: #d9d9d9;
 }
-/*****************/
-/*Start Main Top*/
-/***************/
-main #top{
+/**********************/
+/*Start Header Middle*/
+/********************/
+header #middle{
 	width: 100%;
 	margin: 0 auto;	
 }
-main #top div{
+header #middle div{
 	width: 33.33%;
 	float: left;
 	margin: 0 auto;
 }
-main #top div span{
+header #middle div span{
 	background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/t/17/assets/bkg-icons6.png');
 	background-position: 0px -88px;
 	background-repeat: no-repeat;
@@ -94,45 +90,53 @@ main #top div span{
 	width: 40px;
 	float: left;
 }
-main #top div a{
+header #middle div a{
 	text-decoration: none;
 	text-align: right;
 }
-main #top div img{
+header #middle div img{
 	display: block;
 	margin: 0 auto;
 }
-/*********************/
-/*Start Main Top-nav*/
-/*******************/
-main #top-nav{
+/********************/
+/*Start Header Bottom*/
+/******************/
+header #bottom{
 	width: 100%;
 	margin: 0 auto;
 	float: left;
 }
-main #top-nav nav ul li{
+header #bottom nav ul li{
 	width: 14%;
 	display: inline;
 	float: left;
 	text-align: center;	
 }
-main #top-nav nav ul li a{
+header #bottom nav ul li a{
 	text-decoration: none;
 	font-family: "Courier";
 	color: #000;	
 	font-weight: 600;
 }
-main #top-nav ul li:hover a{
+header #bottom ul li:hover a{
 	text-decoration: underline;
 }
+/********************/
+/*Start Main Top*/
+/******************/
+main #top{
+	width: 100%;
+	float: left;
+}
+
 /********************/
 /*Start Main Middle*/
 /******************/
 main #middle{
 	width: 100%;
-	margin: 0 auto;
+	float: left;
 }
-main #middle article{
+main #middle h2{
 	text-align: center;
 	font-family: "Courier";
 }
@@ -233,11 +237,20 @@ main #middle div div figure #img-five:hover{
 main #bottom{
 	width: 100%;
 }
-main #bottom div{
+main #bottom p{
 	width: 100%;
 	float: left;
 }
-main #bottom div button{
+main #bottom p button{
 	display: block;
 	margin: 0 auto;
+}
+main #bottom figure{
+	width: 50%;
+	float: left;
+	margin: 0;
+}
+main #bottom figure img{
+	display: block;
+	margin:0 auto;
 }
