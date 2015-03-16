@@ -162,14 +162,14 @@ main #middle div figure #slash{
 	width: 45%;
 	float: left;
 	text-align: right;
-	margin: 0 5 0 0;
+	margin: 0 5px 0 0;
 }
 main #middle div figure #red{
 	width: 45%;
 	float: left;
 	text-align: left;
 	color: #E95144;
-	margin: 0 0 0 5;
+	margin: 0 0 0 5px;
 }
  /*trying to get image to change on hover*/
 .image-overlay{
@@ -182,7 +182,7 @@ main #middle div figure #red{
 .image-overlay:hover{
  	opacity: .4;
  }
- main #middle div div figure #img-one,  main #middle div div figure #img-two,  main #middle div div figure #img-three,  main #middle div div figure #img-four,  main #middle div div figure #img-five{
+main #middle div div figure #img-one,  main #middle div div figure #img-two,  main #middle div div figure #img-three,  main #middle div div figure #img-four,  main #middle div div figure #img-five{
  	background-repeat: repeat;
  	background-size: 100% 100%; 
 }
@@ -239,23 +239,5 @@ main #bottom div{
 }
 main #bottom div button{
 	display: block;
-	margin: 0 auto;
-}
-main #bottom div + div{
-	width: 100%;
-	float: left;
-}
-main #bottom div + div figure{
-	width: 50%;
-	float: left;
-	margin: 0 auto 0 auto;	
-}
-main #bottom div + div figure + figure{
-	margin: 0 5 0 0;
-}
-main #bottom div + div figure img{
-	display: block;
-	width: 580px;
-	height: 460px;
 	margin: 0 auto;
 }
