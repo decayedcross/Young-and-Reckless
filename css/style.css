@@ -241,3 +241,21 @@ main #bottom div button{
 	display: block;
 	margin: 0 auto;
 }
+main #bottom div + div{
+	width: 100%;
+	float: left;
+}
+main #bottom div + div figure{
+	width: 50%;
+	float: left;
+	margin: 0 auto 0 auto;	
+}
+main #bottom div + div figure + figure{
+	margin: 0 5 0 0;
+}
+main #bottom div + div figure img{
+	display: block;
+	width: 580px;
+	height: 460px;
+	margin: 0 auto;
+}
