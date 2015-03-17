@@ -336,6 +336,10 @@ main #bottom figure img{
 	width: 580px;
 	height: 430px;
 }
+main #bottom figure img:hover{
+	opacity: .4;
+	transition: all 1s ease-in-out;
+}
 /*****************/
 /*Start Foot Top*/
 /***************/
@@ -384,6 +388,12 @@ footer #top div article button{
 	font-weight: bold;	
 	border: none;
 }
+footer #top div article button:hover{
+	background-color: #aaa;
+	color: #000;
+	font-weight: bold;	
+	border: none;
+}
 footer #top div article div a{
 	text-decoration: none;
 	width: 20%;
@@ -393,6 +403,7 @@ footer #top div article div a{
 footer #top div article div a img{
 	display: inline-block;
 }
+	
 /********************/
 /*Start Foot Middle*/
 /******************/
