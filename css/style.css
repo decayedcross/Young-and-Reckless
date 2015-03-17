@@ -7,7 +7,7 @@ body{
 	background-repeat: repeat;
 }
 header, main{
-	width: 1200px;
+	width: 1180px;
 	margin: 0 auto;
 	padding: 0;
 	display: block;
@@ -18,13 +18,14 @@ header, main{
 header #inner{
 	width: 100%;
 	float: left;
-	background-color: red;
 	padding: 0 10px 0 10px;
+	background-color: #fff;
 }
 
 header #top{
 	width: 100%;
 	float: left;
+	margin: 0 0 37px 0;
 }
 header #top article{
 	font-family: "Arial",arial,helvetica,sans-serif,verdana;
@@ -92,6 +93,15 @@ header #middle div{
 	float: left;
 	margin: 0 auto;
 }
+header #middle div input{
+	width: 45%;
+	display: block;
+	float: left;
+	font-size: 12px;
+	line-height: 35px;
+	margin: 0 0 0 35px;
+	font-family: "Courier"
+}	
 header #middle div span{
 	background-image: url('http://cdn.shopify.com/s/files/1/0340/3381/t/17/assets/bkg-icons6.png');
 	background-position: 0px -88px;
@@ -380,7 +390,7 @@ footer #bottom div{
 	margin: 0 auto;	
 }
 footer #bottom div article{
-	width: 33%;
+	width: 33.33333333%;
 	float: left;
 }
 footer #bottom div article + article{
@@ -390,11 +400,12 @@ footer #bottom div article + article a{
 	text-decoration: none;
 	color: #000;
 }
-footer #bottom div article div a{
-	text-decoration: none;
-	text-align: center;
+footer #bottom div article + article + article{
+	text-align: right;
 }
-footer #bottom div article div a img{
-	display: inline-block;
+footer #bottom div article + article + article a{
 	margin: 0 5px 0 5px;
+}
+footer #bottom div article + article + article a + a + a + a{
+	margin: -5px 0 0 5px;
 }
