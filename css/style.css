@@ -111,7 +111,7 @@ header #middle div p{
 }
 header #middle div p a{
 	text-decoration: none;
-	color: #000;
+	color: #aaa;
 	text-align: right;
 	width: 20%;
 }
@@ -125,7 +125,7 @@ header #middle div span{
 	float: left;
 	text-align: right;
 	display: block;
-	margin: 0 0 0 309px;
+	margin: 0 0 0 286px;
 }
 header #middle div img{
 	display: block;
@@ -287,11 +287,15 @@ main #bottom{
 	float: left;
 	margin: 0 0 77px 0;
 }
-main #bottom button{
+main #bottom div{
+	width: 100%;
+	float: left;
+}
+main #bottom div button{
 	display: block;
 	margin: 0 auto 40px auto;
 	border: 2px solid;
-	border-color: ##333;
+	border-color: #aaa;
 	background-color: #fff;
 	width: 25%;
 	text-align: center;
@@ -302,10 +306,9 @@ main #bottom button{
 	height: 42px;
 	line-height: 39px;
 }
-main #bottom:hover button{
+main #bottom div button:hover{
 	display: block;
-	border: 2px solid;
-	border-color: ##333;
+	border-color: #333;
 	width: 25%;
 	background-color: #000;
 	text-align: center;
@@ -315,7 +318,6 @@ main #bottom:hover button{
 	font-size: 13px;
 	height: 42px;
 	line-height: 39px;
-
 }
 main #bottom figure{
 	width: 49%;
