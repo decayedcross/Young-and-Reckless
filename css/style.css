@@ -409,7 +409,7 @@ footer #top div article div a img{
 /******************/
 footer #middle{
 	width: 100%;
-	background-color: #333;
+	background-color: #232323;
 	float: left;
 	padding: 25px 0 45px 0;
 }
@@ -452,6 +452,7 @@ footer #bottom{
 	width: 100%;
 	background-color: #fff;
 	float: left;
+	padding: 0 0 60px 0;
 }
 footer #bottom div{
 	width: 1180px;
